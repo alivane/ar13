@@ -1,0 +1,19 @@
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background-image : url('../img/header/crespita.jpg');
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	transition-duration: 3s,5s,2s,1s;
+
+}
+#contenedor{
+	margin-top:480px;
+	width: 100%;
+	height: 20000px;
+	background-color:white;
+}
