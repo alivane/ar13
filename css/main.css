@@ -6,17 +6,23 @@
 body{
 	background-image : url('../img/header/crespita.jpg');
 	background-repeat: no-repeat;
-	background-size:80% 100%;
+	background-size:80% 50%;
 	background-attachment: fixed;
-	background-position: 50%;
+	background-position: 50% -10%;
 	transition-duration: 3s,5s,2s,1s;
 
 }
 #contenedor{
-	width: 80%;
+	width: 82%;
 	height: 20000px;
 	background-color:white;
-	margin: 450px auto;
+	margin: 250px auto;
+}
+#enlaces{
+	background-color: transparent;
+	height: 30px;
+	width:80%;
+	margin:170px auto;
 }
 
 /*LORE*/
@@ -34,9 +40,9 @@ body{
 
 .tabs {
 	position: relative;
-	width: 100%;
+	width: 90%;
 	overflow: hidden;
-	margin: 1em 0 2em;
+	margin-left: 2% ;
 	font-weight: 300;
 }
 
@@ -276,6 +282,7 @@ nav.sticky {
 }
  
 nav.sticky ul {
+
 	list-style: none;
 	overflow: hidden;
 }
