@@ -303,8 +303,9 @@ li {list-style: none;}
  		background-color:red;
  	}
 	header{
-		background-size:80% 40%; 	
+			background-size:80% 40%; 	
 	        background-position: 50% 0px ;
+	        width: 80%;
 	}
  }
   @media (min-width: 1024px) { 
