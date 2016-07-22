@@ -5,12 +5,17 @@
 }
 body{
 	background-image : url('../img/header/crespita.jpg');
+	background-size:80% 80%; 	
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size:80% 80%;
 	background-attachment: fixed;
-	background-position: 50% -10%;
+
 	transition-duration: 3s,5s,2s,1s;
 
+}
+
+@media only screen (min-width-device: 320px) and (max-width-device: 480px) {
+	body {	background-size:80% 50%; 	background-position: 50% -10%;}
 }
 #contenedor{
 	height: 100%;
