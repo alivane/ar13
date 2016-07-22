@@ -66,13 +66,13 @@
 $(document).ready(function(){
 	myFunction()
 	function cambiarFondo(){
-		$('header#home').css('background-image','url(img/header/foto.jpg)')//cambia el fondo
+		$('body').css('background-image','url(img/header/foto.jpg)')//cambia el fondo
 	}
 	function cambiarFondo1(){
-		$('header#home').css('background-image','url(img/header/gwen.jpg)')//cambia el fondo1
+		$('body').css('background-image','url(img/header/gwen.jpg)')//cambia el fondo1
 	}
 	function cambiarFondo2(){
-		$('header#home').css('background-image','url(img/header/crespita.jpg)')//cambia el fondo2
+		$('body').css('background-image','url(img/header/crespita.jpg)')//cambia el fondo2
 	}
 	var nuevoFondo;
 	function myFunction(){
