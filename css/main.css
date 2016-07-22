@@ -10,6 +10,7 @@ header {
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	transition-duration: 3s,5s,2s,1s;
+	margin:auto;
 
 }
 #contenedor{
@@ -306,7 +307,7 @@ li {list-style: none;}
 			background-size:100% 40%; 	
 	        background-position: 50% 0px ;
 	        width: 80%;
-	        margin:auto;
+	        
 	}
  }
   @media (min-width: 1024px) { 
