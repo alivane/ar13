@@ -312,3 +312,7 @@ nav.sticky ul li a:hover {
 .content div.col-md-6, #section-3 div.col-lg-6 {width: 100%;display: inline;} 
 
 footer {background-color: white;}
+footer li{
+	list-style: none;
+	color:black;
+}
