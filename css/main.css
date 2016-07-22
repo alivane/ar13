@@ -14,7 +14,7 @@ body{
 }
 #contenedor{
 	width: 82%;
-	height: 20000px;
+	
 	background-color:white;
 	margin: 450px auto;
 }
@@ -120,16 +120,16 @@ body{
 	content: "\e600";
 }
 
-.icon-lab:before {
-	content: "\e601";
+.heart:before {
+	content: "\e909";
 }
 
 .icon-cup:before {
 	content: "\e602";
 }
 
-.icon-truck:before {
-	content: "\e603";
+.stats-dots:before {
+	content: "\e903";
 }
 
 .icon-shop:before {
@@ -311,3 +311,7 @@ nav.sticky ul li a:hover {
 .nopadding {padding: 0px !important;}
 
 .content div.col-md-6, #section-3 div.col-lg-6 {width: 100%;display: inline;} 
+
+/*Scrolling*/
+
+li {list-style: none;}
