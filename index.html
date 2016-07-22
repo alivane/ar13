@@ -22,47 +22,62 @@
 	</div>
 	<div id="contenedor">
 
-	<div class="col-md-12 col-lg-12 col-xs-12 col-sm-12">
-		<nav class="menu sticky">
-				<ul>
-					<li><a href="#">LINK1</a></li>
-					<li><a href="#">LINK2</a></li>
-					<li><a href="#">LINK3</a></li>
-					<li><a href="#">LINK4</a></li>
-					<li><a href="#">LINK5</a></li>
-				</ul>
-			</nav>
-	</div>
 <div id="tabs" class="tabs">
 
-	<nav class="sub-categorias">
+	<nav class="sub-categorias menu sticky">
 		<ul>
-			<li><a href="#section-1" class="icon-shop"><span>Belleza</span></a></li>
-			<li><a href="#section-2" class="icon-cup"><span>Salud</span></a></li>
-			<li><a href="#section-3" class="icon-food"><span>Deporte</span></a></li>
-			<li><a href="#section-4" class="icon-lab"><span>Pareja</span></a></li>
-			<li><a href="#section-5" class="icon-truck"><span>Finanzas</span></a></li>
-			<li><a href="#section-6" class="icon-truck"><span>Panoramas</span></a></li>
+			<li><a href="#section-1"><span><i class="fa fa-eye" aria-hidden="true"></i> Belleza</span></a></li>
+			<li><a href="#section-2"><span><i class="fa fa-heartbeat" aria-hidden="true"></i> Salud</span></a></li>
+			<li><a href="#section-3"><span><i class="fa fa-futbol-o" aria-hidden="true"></i> Deporte</span></a></li>
+			<li><a href="#section-4"><span><i class="fa fa-venus-mars" aria-hidden="true"></i> Pareja</span></a></li>
+			<li><a href="#section-5"><span><i class="fa fa-database" aria-hidden="true"></i> Finanzas</span></a></li>
+			<li><a href="#section-6"><span><i class="fa fa-gamepad" aria-hidden="true"></i> Panoramas</span></a></li>
 		</ul>
 	</nav>
 	<div class="content">
 		<section id="section-1">
-			<div class="row">
-				<div class="col-md-4 col-lg-4">
-					<div class="col-md-6 col-lg-6">
-						<img src="img/video.gif" alt="" class="img-responsive nopadding">
+		<ul id="posts">
+			<li>
+				<article>
+					<div class="row">
+						<div class="col-md-4 col-lg-4">
+							<div class="col-md-6 col-lg-6">
+								<img src="img/video.gif" alt="" class="img-responsive nopadding">
+							</div>
+							<div class="col-md-6 col-lg-6">
+								<img src="img/02.png" alt="" class="img-responsive nopadding">
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quia minima explicabo odio quibusdam, quasi, soluta aut aliquid, cupiditate aspernatur veniam. Iste veritatis quod quaerat corrupti temporibus vel, quidem porro!</p>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita incidunt doloremque nemo, optio nisi, voluptatum numquam molestias quo cum hic ducimus quia necessitatibus officia placeat adipisci deleniti similique fugit tempora.</p>
+						</div>
 					</div>
-					<div class="col-md-6 col-lg-6">
-						<img src="img/02.png" alt="" class="img-responsive nopadding">
-					</div>
-				</div>
-				<div class="col-md-4 col-lg-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quia minima explicabo odio quibusdam, quasi, soluta aut aliquid, cupiditate aspernatur veniam. Iste veritatis quod quaerat corrupti temporibus vel, quidem porro!</p>
-				</div>
-				<div class="col-md-4 col-lg-4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita incidunt doloremque nemo, optio nisi, voluptatum numquam molestias quo cum hic ducimus quia necessitatibus officia placeat adipisci deleniti similique fugit tempora.</p>
-				</div>
-			</div>
+					<div class="row">
+						<div class="col-md-4 col-lg-4">
+							<div class="col-md-6 col-lg-6">
+								<img src="img/video.gif" alt="" class="img-responsive nopadding">
+							</div>
+							<div class="col-md-6 col-lg-6">
+								<img src="img/02.png" alt="" class="img-responsive nopadding">
+							</div>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias quia minima explicabo odio quibusdam, quasi, soluta aut aliquid, cupiditate aspernatur veniam. Iste veritatis quod quaerat corrupti temporibus vel, quidem porro!</p>
+						</div>
+						<div class="col-md-4 col-lg-4">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita incidunt doloremque nemo, optio nisi, voluptatum numquam molestias quo cum hic ducimus quia necessitatibus officia placeat adipisci deleniti similique fugit tempora.</p>
+						</div>
+					</div>					
+				</article>
+			</li>
+		</ul>
+
+		<p id="loading">
+			<img src="images/loading.gif" alt="Loading…" />
+		</p>
 		</section>
 		<section id="section-2">
 			<div class="mediabox">
@@ -154,17 +169,79 @@
 </div><!-- /tabs -->
 
 
-
-
-
 	</div>
 
 
-
-
+    <footer class="content container">
+      <div class="row">
+          <div class="col-md-2 col-sm-2">
+            <a class="site-logo" title="AR13" href="/"> <img width="88" height="76" alt="Logo de La Alfombra Roja" src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo.png" > </a>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h5>Corporativo</h5>
+            <nav>
+              <ul>
+                <li><a href="http://www.13.cl/corporativo/corporativo.htm">Quiénes somos</a></li>
+                <li><a href="http://www.13.cl/inversionistas">Inversionistas</a></li>
+                <li><a href="http://www.13.cl/comercial">Area Comercial</a></li>
+                <li><a href="http://www.13.cl/comercial/politicas-comerciales">Políticas Comerciales</a></li>
+                <li><a href="http://www.13.cl/proveedores">Proveedoras</a></li>
+                <li><a href="http://www.13.cl/corporativo/corporativo_TrabajaConNosotros.htm">Trabaja con Nosotros</a></li>
+                <li><a href="http://www.13.cl/corporativo/mediciones_antenas.htm">Mediciones Antenas</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h5>Ayuda</h5>
+            <nav>
+              <ul>
+                <li><a href="http://www.13.cl/formularios/contactate-con-canal-13">Contacto</a></li>
+                <li><a href="http://www.13.cl/faq.htm">Preguntas Frecuentes</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h5>Servicios</h5>
+            <nav>
+              <ul>
+                <li><a href="http://www.13.cl/concursos">Bases de concursos</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h5>Nuestros Sitios</h5>
+            <nav>
+              <ul>
+                <li><a href="http://www.13.cl/programas">Programas</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-md-2 col-sm-2">
+            <h5>Síguenos</h5>
+            <nav>
+              <ul>
+                <li><a href="http://www.facebook.com/alfombraroja" title="Síguenos en Facebook"><span class="fa fa-facebook"></span></a></li>
+                <li><a href="http://twitter.com/AlfombraRoja_13" title="Síguenos en Twitter"><span class="fa fa-twitter"></span></a></li>
+              </ul>
+            </nav>
+          </div>
+         </div>
+        <div class="row">
+        	<div class="col-md-10 col-sm-10">
+	          <h5>Red 13.CL</h5>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-1.png" width="63" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-2.png" width="59" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-3.png" width="67" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-4.png" width="67" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-5.png" width="67" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-6.png" width="67" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-7.png" width="67" height="42" /></a>
+	          <a href="#" title="" target="_blank"><img src="http://static.13.cl/7/sites/all/themes/ar/resources/images/logo-13-8.png" width="67" height="42" /></a>
+          	</div>
+        </div>
+</footer>
 	    <script src="https://code.jquery.com/jquery-2.2.2.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
 
 		<script src="js/main.js"></script>
 		<script>
