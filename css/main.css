@@ -14,7 +14,7 @@ body{
 }
 #contenedor{
 	width: 80%;
-	height: 20000px;
+	height: 100%;
 	background-color:white;
 	margin: 450px auto;
 }
@@ -310,3 +310,5 @@ nav.sticky ul li a:hover {
 .nopadding {padding: 0px !important;}
 
 .content div.col-md-6, #section-3 div.col-lg-6 {width: 100%;display: inline;} 
+
+footer {background-color: white;}
