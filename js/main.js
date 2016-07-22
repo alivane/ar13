@@ -80,5 +80,5 @@ $(document).ready(function(){
 		nuevoFondo = setInterval(cambiarFondo1,20000);
 		nuevoFondo = setInterval(cambiarFondo2,30000);
 	}
-});
+})
 
