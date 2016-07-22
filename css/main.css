@@ -6,7 +6,7 @@
 body{
 	background-image : url('../img/header/crespita.jpg');
 	background-repeat: no-repeat;
-	background-size:80% 50%;
+	background-size:80% 80%;
 	background-attachment: fixed;
 	background-position: 50% -10%;
 	transition-duration: 3s,5s,2s,1s;
@@ -16,7 +16,7 @@ body{
 	height: 100%;
 	width: 82%;
 	background-color:white;
-	margin: 250px auto;
+	margin: 220px auto;
 }
 #enlaces{
 	background-color: transparent;
