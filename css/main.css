@@ -5,7 +5,7 @@
 }
 header#home {
 	background-image : url('../img/header/crespita.jpg');
-	background-size:80% 80%; 	
+	background-size:cover; 	
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -24,7 +24,7 @@ header#home {
 	height: 100%;
 	width: 82%;
 	background-color:white;
-	margin: 220px auto;
+	
 }
 #enlaces{
 	background-color: transparent;
@@ -302,5 +302,4 @@ footer {background-color: white;}
 /*Scrolling*/
 
 li {list-style: none;}
-
 
