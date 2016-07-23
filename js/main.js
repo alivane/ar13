@@ -67,12 +67,15 @@ $(document).ready(function(){
 	myFunction()
 	function cambiarFondo(){
 		$('header').css('background-image','url(img/header/foto.jpg)')//cambia el fondo
+		$('header a').html('<h1>Primer titulo</h1>')//aqui van los titulos
 	}
 	function cambiarFondo1(){
 		$('header').css('background-image','url(img/header/gwen.jpg)')//cambia el fondo1
+		$('header a').html('<h1>segundo titulo</h1>')
 	}
 	function cambiarFondo2(){
 		$('header').css('background-image','url(img/header/crespita.jpg)')//cambia el fondo2
+		$('header a').html('<h1>Tercero titulo</h1>')
 	}
 	var nuevoFondo;
 	function myFunction(){

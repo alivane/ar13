@@ -13,6 +13,10 @@ header {
 	margin:auto;
 
 }
+footer{
+	width: 80% !important;
+	margin:0 auto;
+}
 #contenedor{
 	height: 100%;
 	width: 80%;
