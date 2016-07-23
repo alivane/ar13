@@ -25,6 +25,7 @@ header {
 	margin: auto;
 	height: 270px;
 }
+
 #enlaces{
 	padding:200px 0px 400px 0px;
 }
@@ -301,7 +302,7 @@ li {list-style: none;}
 
  @media(max-width: 1024px) { 
 	header{
-			background-size:100% 40%; 	
+			background-size:100% 100%; 	
 	        background-position: 50% 0px ;
 	        width: 80%;
 	        
@@ -312,6 +313,7 @@ li {list-style: none;}
 			background-size:80% 100%; 	
 			background-position: 50%;
 		} 
+
 	}
 
 
