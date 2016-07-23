@@ -300,6 +300,12 @@ footer {background-color: white;}
 li {list-style: none;}
 
 
+footer li{
+	list-style: none;
+	color:black;
+}
+
+
  @media(max-width: 1024px) { 
 	header{
 			background-size:100% 100%; 	
@@ -330,3 +336,4 @@ li {list-style: none;}
 
 
 
+>>>>>>> master
