@@ -159,3 +159,40 @@ function randomPost() {
 
 	return post;
 }
+//inicio de comentarios
+function search(){
+	var box = document.getElementsByClassName("mediabox");
+	var input = document.getElementById("buscar-input").value.toLowerCase();
+	var text = "";
+	var found=false;
+	var compareWith="";
+	// Recorremos los box 
+	for (var i = 0; i < box.length; i++) {
+
+		text = box[i].getElementsByTagName("h3");
+		found = false;
+		// Recorremos los textos
+		for (var j = 0; j < text.length && !found; j++) {
+
+			compareWith = text[j].innerHTML.toLowerCase().replace(/í/gi,"i");
+			// Buscamos el texto en el contenido
+			if (input.length == 0 || (compareWith.indexOf(input) > -1)) {
+				found = true;
+
+			}
+		}
+			if(found) {
+				box[i].style.display = '';
+
+			} else {
+				// si no ha encontrado ninguna coincidencia, no muestra nada
+				box[i].style.display = 'none';
+
+
+			}
+
+		}
+}
+
+
+//termino de comentario

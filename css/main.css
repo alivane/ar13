@@ -17,7 +17,7 @@ footer{
 	width: 80% !important;
 	margin:0 auto;
 }
-#contenedor{
+.contenedor{
 	height: 100%;
 	width: 80%;
 	margin:auto;
@@ -308,6 +308,30 @@ footer li{
 	list-style: none;
 	color:black;
 }
+/*inicio de comentarios*/
+.buscar {
+  height: 65px;
+  width: 338px;
+  background-color: white;
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: 1px solid #CB2C5E;
+  margin: 0 auto;
+  position: relative; }
+  .buscar i.glyphicon-search {
+    font-size: 14px;
+    position: absolute;
+    padding: 22px 10px;
+    pointer-events: none;
+    color: #CB2C5E; }
+  .buscar input.buscar-input {
+    width: 90%;
+    color: #CB2C5E;
+    padding: 5px 5px;
+    padding-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #CB2C5E; }
+/*termino de comentarios*/
 
 
  @media(max-width: 1024px) { 
@@ -338,6 +362,3 @@ footer li{
 
 
 
-
-
->>>>>>> master
