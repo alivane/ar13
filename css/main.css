@@ -5,7 +5,7 @@
 }
 header {
 	background-image : url('../img/header/crespita.jpg');
-	background-size:100% 100%; 	
+	background-size:100% 80%; 	
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -31,9 +31,22 @@ footer{
 }
 
 #enlaces{
-	padding:200px 0px 400px 0px;
+	padding:200px 0px 200px 70px;
 }
 
+#enlaces h1{
+	color:#E51960;
+	text-decoration: none;
+}
+#enlaces h1:hover{
+	font-size: 40px;
+	color:black;
+
+}
+#enlaces a:hover{
+	text-decoration: none;
+
+}
 /*LORE*/
 
 
