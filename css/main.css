@@ -3,6 +3,9 @@
 	padding: 0px;
 	margin: 0px;
 }
+body{
+	background-color: black;
+}
 header {
 	background-image : url('../img/header/crespita.jpg');
 	background-size:100% 80%; 	
