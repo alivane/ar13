@@ -129,7 +129,7 @@ $(document).ready(function() {
 });
 
 // Generate a random post
-function randomPost() {
+/*function randomPost() {
 	// Paragraphs that will appear in the post
 	var paragraphs = [
 		'<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae suscipit arcu. Praesent pretium orci neque, non egestas massa suscipit non. In urna ligula, pretium ac magna in, consectetur venenatis dui. Etiam id commodo neque, vel semper nunc. Vivamus porttitor condimentum pulvinar. Quisque et consequat mi. Suspendisse luctus, quam in dapibus venenatis, velit erat malesuada lacus, dapibus tincidunt neque ex vitae leo. Suspendisse fermentum sit amet urna eu dignissim. Curabitur vel nibh quis justo volutpat porttitor et tempus sem.</p>',
@@ -159,6 +159,7 @@ function randomPost() {
 
 	return post;
 }
+*/
 //inicio de comentarios
 function search(){
 	var box = document.getElementsByClassName("mediabox");
