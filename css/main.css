@@ -365,23 +365,14 @@ footer li{
 		} 
 
 	}
-
-/*boton*/
+/*boton css de facebook y tweet*/
 *{
 	margin:0px;
 	padding:0px;
 	font-family: helvetica;
 }
 
-div.contenedor{
-	margin:15px;
-	width:350px;
-	height:300px;
-	background-color: red;
-	overflow: hidden;
-}
-
-div.imagen{
+.imagen{
 	width:350px;
 	height:300px;
 	background-color: #cecece;
@@ -397,7 +388,7 @@ img.imagen{
 	-webkit-transition: margin-top .4s;
 }
 
-div.info{
+.info{
 	width:350px;
 	height:0px;
 	background-color: #233c80;
@@ -405,20 +396,9 @@ div.info{
 	-webkit-transition: height .4s;
 }
 
-p.titulo{
-	margin:15px;
-	font-size: 1.1em;
-	color:#d53a61;
-}
-
-p.adicional{
-	color:white;
-	margin-left: 15px;
-}
-
 a.link{
 	float:right;
-	margin-top:-25px;
+	margin-top:25px;
 	margin-right:5px;
 	padding:10px 30px;
 	background-color:#d53a61;
@@ -427,22 +407,17 @@ a.link{
 	text-decoration: none;
 }
 
-div.contenedor:hover div.imagen{
+.post:hover div.imagen{
 	height: 210px;
 }
 
-div.contenedor:hover div.info{
+.post:hover div.info{
 	height:90px;
 }
 
-div.contenedor:hover img.imagen{
+.post:hover img.imagen{
 	margin-top:40px;
 }
-
-
-
-
-
 
 
 
