@@ -483,8 +483,12 @@ li .fa-twitter{
 	padding: 6px;
 	border-radius: 5px;	
 }
-
-
+footer h5{
+	color:#FF3271;
+}
+footer li a{
+	color:black;
+}
 
 
 
