@@ -1,5 +1,5 @@
 
-$( function( window ) {
+;( function( window ) {
 	
 	'use strict';
 
@@ -25,7 +25,7 @@ $( function( window ) {
 
 	CBPFWTabs.prototype._init = function() {
 		// tabs elemes
-		this.tabs = [].slice.call( this.el.querySelectorAll( 'nav > ul > li' ) );
+		this.tabs = [].slice.call( this.el.querySelectorAll( 'nav > ul > li > a' ) );
 		// content items
 		this.items = [].slice.call( this.el.querySelectorAll( '.content > section' ) );
 		// current index
@@ -67,15 +67,15 @@ $(document).ready(function(){
 	myFunction()
 	function cambiarFondo(){
 		$('header').css('background-image','url(img/header/foto.jpg)')//cambia el fondo
-		$('header a').html('<h1>Primer titulo</h1>')//aqui van los titulos
+		$('header a').html('<h1>Cambio de noticia</h1><p>Llevame a esta</p>')//aqui van los titulos
 	}
 	function cambiarFondo1(){
 		$('header').css('background-image','url(img/header/gwen.jpg)')//cambia el fondo1
-		$('header a').html('<h1>segundo titulo</h1>')
+		$('header a').html('<h1>segundo titulo</h1><p>Llevame a la noticia</p>')
 	}
 	function cambiarFondo2(){
-		$('header').css('background-image','url(img/header/crespita.jpg)')//cambia el fondo2
-		$('header a').html('<h1>Tercero titulo</h1>')
+		$('header').css('background-image','url(img/4.jpg)')//cambia el fondo2
+		$('header a').html('<h1>Tercer titulo</h1><p>Llevame a la noticia</p>')
 	}
 	var nuevoFondo;
 	function myFunction(){
@@ -100,6 +100,8 @@ $(document).ready(function(){
 
 /*scrolling*/
 
+/*
+
 
 $(document).ready(function() {
 	var win = $(window);
@@ -120,7 +122,7 @@ $(document).ready(function() {
 					$('#loading').hide();
 				}
 			});
-			*/
+			
 
 			$('#posts').append(randomPost());
 			$('#loading').hide();
@@ -162,7 +164,8 @@ $(document).ready(function() {
 */
 //inicio de comentarios
 function search(){
-	var box = document.getElementsByClassName("mediabox");
+	var box = document.getElementsByClassName("col-xs-7");
+	var box1 = document.getElementsByClassName("col-xs-5");
 	var input = document.getElementById("buscar-input").value.toLowerCase();
 	var text = "";
 	var found=false;
@@ -184,6 +187,7 @@ function search(){
 		}
 			if(found) {
 				box[i].style.display = '';
+				$('hr').hide()
 
 			} else {
 				// si no ha encontrado ninguna coincidencia, no muestra nada
@@ -193,7 +197,35 @@ function search(){
 			}
 
 		}
+		for (var i = 0; i < box1.length; i++) {
+
+		text = box[i].getElementsByTagName("h3");
+		found = false;
+		// Recorremos los textos
+		for (var j = 0; j < text.length && !found; j++) {
+
+			compareWith = text[j].innerHTML.toLowerCase().replace(/í/gi,"i");
+			// Buscamos el texto en el contenido
+			if (input.length == 0 || (compareWith.indexOf(input) > -1)) {
+				found = true;
+
+			}
+		}
+			if(found) {
+				box1[i].style.display = '';
+
+			} else {
+				// si no ha encontrado ninguna coincidencia, no muestra nada
+				box1[i].style.display = 'none';
+
+
+			}
+
+		}
+
 }
+
+
 
 
 //termino de comentario

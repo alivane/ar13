@@ -1,0 +1,61 @@
+/*boton css de facebook y tweet*/
+*{
+	margin:0px;
+	padding:0px;
+	font-family: helvetica;
+}
+
+.post{
+	margin:15px;
+	width:350px;
+	height:300px;
+	background-color: red;
+	overflow: hidden;
+}
+
+.imagen{
+	width:350px;
+	height:300px;
+	background-color: #cecece;
+	overflow: hidden;
+	-webkit-transition: height .4s;
+}
+
+img.imagen{
+	display: block;
+	margin:70px auto;
+	width:145px;
+	height:145px;
+	-webkit-transition: margin-top .4s;
+}
+
+.info{
+	width:350px;
+	height:0px;
+	background-color: #233c80;
+	overflow: hidden;
+	-webkit-transition: height .4s;
+}
+
+a.link{
+	float:right;
+	margin-top:25px;
+	margin-right:5px;
+	padding:10px 30px;
+	background-color:#d53a61;
+	font-size: .8em;
+	color:white;
+	text-decoration: none;
+}
+
+.post:hover div.imagen{
+	height: 210px;
+}
+
+.post:hover div.info{
+	height:90px;
+}
+
+.post:hover img.imagen{
+	margin-top:40px;
+}
