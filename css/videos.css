@@ -156,12 +156,6 @@ h1 {font-family: 'Playfair Display', serif;}
 	font-size: 18px;
 	text-align: justify;
 }
-*{
-	margin:0px;
-	padding:0px;
-	font-family: helvetica;
-}
-
 .imagen{
 	width:350px;
 	height:300px;
@@ -209,6 +203,10 @@ a.link{
 	margin-top:40px;
 }
 
+.logotipo{
+	width: 7%;
+	border-radius: 2px solid black;
 
+}
 
 
